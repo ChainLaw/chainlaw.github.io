@@ -33,7 +33,7 @@
       <link href="posts/problem-solutions/"/>
       <url>posts/problem-solutions/</url>
       
-        <content type="html"><![CDATA[<h1 id="Visual-Studio篇"><a href="#Visual-Studio篇" class="headerlink" title="Visual Studio篇"></a>Visual Studio篇</h1><ul><li><p>VS2019无法离线安装，一直显示正在提取文件<br>DNS问题，将DNS地址设成114.114.114.114或者8.8.8.8即可</p></li><li><p>scanf()函数使用异常<br>添加预处理器定义 &amp;&amp; 宏定义</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#define _CRT_SECURE_NO_WARNINGS</span><br><span class="line">#pragma warning(disable:6031)</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="Visual-Studio篇"><a href="#Visual-Studio篇" class="headerlink" title="Visual Studio篇"></a>Visual Studio篇</h1><ul><li><p>VS2019无法离线安装，一直显示正在提取文件<br>DNS问题，将DNS地址设成114.114.114.114或者8.8.8.8即可</p></li><li><p>scanf()函数使用异常<br>添加预处理器定义 || 宏定义</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#define _CRT_SECURE_NO_WARNINGS</span><br><span class="line">#pragma warning(disable:6031)</span><br></pre></td></tr></table></figure></li></ul>]]></content>
       
       
       
