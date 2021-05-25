@@ -587,17 +587,17 @@ img {
 /* 字体 */
 @font-face{
     font-family: 'JhengHei-UI';
-    src: url('https://cdn.jsdelivr.net/gh/ChainLaw/cdn_repo@0.0.8/fonts/JhengHei-UI.ttf') format('TrueType');
+    src: url('../font/JhengHei-UI.ttf') format('TrueType');
 }
 
 @font-face{
-    font-family: 'SourceCodePro-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/ChainLaw/cdn_repo@0.0.8/fonts/SourceCodePro-Regular.ttf') format('TrueType');
+    font-family: 'FiraCode-Regular';
+    src: url('../font/SourceCodePro-Regular.ttf') format('TrueType');
 }
 
 @font-face{
     font-family: 'Jiangxi-ZhuoKai';
-    src: url('https://cdn.jsdelivr.net/gh/ChainLaw/cdn_repo@0.0.8/fonts/Jiangxi-ZhuoKai.ttf') format('TrueType');
+    src: url('../font/Jiangxi-ZhuoKai.ttf') format('TrueType');
 }
 
 /*半透明*/
