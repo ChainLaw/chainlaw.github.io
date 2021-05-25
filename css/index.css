@@ -1683,7 +1683,7 @@ blockquote footer cite:before {
 #article-container pre,
 #article-container code {
   font-size: 14px;
-  font-family: SourceCodePro-Regular !important;
+  font-family: FiraCode-Regular !important;
 }
 #article-container code {
   padding: 0.1rem 0.2rem;
