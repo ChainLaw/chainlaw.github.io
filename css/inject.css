@@ -586,8 +586,8 @@ img {
 
 /* 字体 */
 @font-face{
-    font-family: 'JhengHei-UI';
-    src: url('../font/JhengHei-UI.ttf') format('TrueType');
+    font-family: 'CAIJIN_BASIC_PRO_L';
+    src: url('../font/CAIJIN_BASIC_PRO_L.TTF') format('TrueType');
 }
 
 @font-face{
